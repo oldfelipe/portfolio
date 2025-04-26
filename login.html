@@ -1,0 +1,63 @@
+<!-- Projeto Pagina de Login -->
+<!doctype html>
+<html>
+
+<head>
+    <title>Pagina de login</title>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
+    <!--<link rel="stylesheet" href="style.css">-->
+    <!--shortcut ctrl k u/c-->
+    <style>
+        /* CSS classes */
+        .titulo {
+            color: red;
+            text-align: center;
+        }
+
+        .caixa {
+            text-align: center;
+            align-items: center;
+        }
+        #centro {
+            background-color: bisque;
+            text-align: center;
+            padding-top: 200px;
+            padding-right: 200px;
+            padding-bottom: 200px;
+            padding-left: 200px;
+        }
+        #tamanho{
+            transform: scale(2);
+        }
+        .texto{
+        	font-family: "Sofia", sans-serif;
+        }
+        .fontbotoes{
+            text-align: center;
+            border-radius: 10px;
+            font-family: "Quicksand", sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="titulo">LOGIN</h1>
+    <div class="caixa">
+        <div id="centro">
+            <div id="tamanho">
+            <form action="menu.html">
+                <label class="texto" for="username">Email:</label><br>
+                <input type="email" id="fname" name="fname" value="name@email.com"><br>
+                <label class="texto" for="password">Senha:</label><br>
+                <input type="password" id="lname" name="lname" value="***"><br><br>
+                <input class="fontbotoes" type="submit" value="login">
+                <input class="fontbotoes" type="reset" value="reset">
+            </div>
+            </form>
+        </div>
+</body>
+
+</html>
