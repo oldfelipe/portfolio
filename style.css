@@ -1,5 +1,8 @@
-h1 {
-    color: red;
+#titulo {
+    color: pink;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#fundo {
+    background-color: black;
 }

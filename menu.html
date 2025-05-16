@@ -6,8 +6,8 @@
     <title>Menu</title>
     <link rel="stylesheet" href="style.css"></linkrel>
 </head>
-<body>
-    <h1 class="centralizartexto">Curriculo</h1><br>
+<body id="fundo">
+    <h1 id="titulo">Curriculo</h1><br>
     <a href="dadospessoais.html">
         <button>Criar</button>
     </a>
@@ -15,5 +15,15 @@
     <a class="centralizarlink" href="experiencia.html">Experiencia</a>
     <a class="centralizarlink" href="formacao.html">Formaçao</a>
     <a class="centralizarlink" href="login.html">Logar</a>
+    <div style="color: white; font-size: 200%;" id="i8gfz" class="gjs-typed"></div>
+    <script>
+        var props = {"i8gfz":{"strings":["PRECISAMOS CONVERSAR","MEIA NOITE TE CONTO","NADA A VER AQUI"],"type-speed":0,"start-delay":0,"back-speed":0,"smart-backspace":true,"back-delay":1500,"fade-out":false,"fade-out-class":"typed-fade-out","fade-out-delay":500,"show-cursor":true,"cursor-char":"|","auto-insert-css":true,"bind-input-focus-events":false,"content-type":"html","loop":true,"loop-count":null,"shuffle":false,"attr":"","typedsrc":"https://cdn.jsdelivr.net/npm/typed.js@2.0.11"}};
+              var ids = Object.keys(props).map(function(id) { return '#'+id }).join(',');
+              var els = document.querySelectorAll(ids);
+              for (var i = 0, len = els.length; i < len; i++) {
+                var el = els[i];
+                (function(e){var t,n=this,o=(t=e.strings,Array.isArray(t)?t:t.indexOf('\n')>=0?t.split('\n'):[]),r=function(e){return parseInt(e,10)||0},a=function(e){return!!e},s=function(){var t=n;t.innerHTML='<span></span>';var s=parseInt("".concat(e['loop-count']),10);"".concat(e['type-speed']);var p={typeSpeed:r(e['type-speed']),startDelay:r(e['start-delay']),backDelay:r(e['back-delay']),backSpeed:r(e['back-speed']),smartBackspace:a(e['smart-backspace']),fadeOut:a(e['fade-out']),fadeOutClass:e['fade-out-class'],fadeOutDelay:r(e['fade-out-delay']),shuffle:a(e.shuffle),loop:a(e.loop),loopCount:isNaN(s)?1/0:s,showCursor:a(e['show-cursor']),cursorChar:e['cursor-char'],autoInsertCss:a(e['auto-insert-css']),bindInputFocusEvents:a(e['bind-input-focus-events']),attr:e.attr,contentType:e['content-type']};o&&o.length&&(p.strings=o),new window.Typed(t.children[0],p)};if(window.Typed)s();else{var p=document.createElement('script');p.src=e.typedsrc,p.onload=s,document.head.appendChild(p)}}.bind(el))(props[el.id]);
+              }
+      </script>
 </body>
 </html>
