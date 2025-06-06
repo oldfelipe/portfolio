@@ -1,6 +1,7 @@
 <!-- Projeto Pagina de Login -->
 <!doctype html>
 <html>
+
 <head>
     <title>Pagina de login</title>
     <meta charset="UTF-8">
@@ -17,26 +18,37 @@
         }
 
         .caixa {
-            text-align: center;
             align-items: center;
         }
+
         #centro {
-            background-color: bisque;
-            text-align: center;
+            margin: auto;
+            background-color: white;
             padding-top: 200px;
-            padding-right: 200px;
+            padding-right: 100px;
             padding-bottom: 200px;
-            padding-left: 200px;
+            padding-left: 100px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
         }
-        #tamanho{
+
+        #tamanho {
             transform: scale(2);
         }
-        .texto{
-        	font-family: "Sofia", sans-serif;
+
+        .texto {
+            font-family: "Sofia", sans-serif;
         }
-        .fontbotoes{
+
+        .fontbotoes {
             text-align: center;
-            border-radius: 10px;
+            border-radius: 5px;
             font-family: "Quicksand", sans-serif;
         }
     </style>
@@ -47,13 +59,15 @@
     <div class="caixa">
         <div id="centro">
             <div id="tamanho">
-            <form action="menu.html">
-                <label class="texto" for="username">Email:</label><br>
-                <input type="email" id="fname" name="fname" value="name@email.com"><br>
-                <label class="texto" for="password">Senha:</label><br>
-                <input type="password" id="lname" name="lname" value="***"><br><br>
-                <input class="fontbotoes" type="submit" value="login">
-                <input class="fontbotoes" type="reset" value="reset">
+                <h1 class="titulo">LOGIN</h1>
+                <button id="butao" onclick="alert('Bem vindo')">Nao clique é virus</button>
+                <form action="menu.html">
+                    <label class="texto" for="username">Email:</label><br>
+                    <input type="email" id="fname" name="fname" value="name@email.com"><br>
+                    <label class="texto" for="password">Senha:</label><br>
+                    <input type="password" id="lname" name="lname" value="***"><br><br>
+                    <input class="fontbotoes" type="submit" value="login">
+                    <input class="fontbotoes" type="reset" value="reset">
             </div>
             </form>
         </div>
