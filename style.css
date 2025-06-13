@@ -1,11 +1,18 @@
 body {
     background-image: url("fundo.jpg");
-    background-size: 100%;
     background-repeat: repeat;
     background-position: left top;
-    margin-right: 200px;
     background-attachment: fixed;
+    align-items: center;
+    justify-content: center;
 }
+
+input {
+    border-bottom: 1px solid #fff;
+    background: blue;
+    width: 220px;
+    opacity: 1;
+  }
 
 .centralizartudo{
     text-align: center;
@@ -25,7 +32,6 @@ body {
     text-align: center;
     font-size: 200%;
 }
-
 
 #texto {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;

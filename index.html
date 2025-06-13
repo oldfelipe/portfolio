@@ -1,11 +1,13 @@
 <!-- Projeto Portfolio -->
 <!doctype html>
 <html>
+
 <head>
     <title>Meu portfolio</title>
     <meta charset="UTF-8">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
     <!--import shortc ut ctrl k u/c-->
     <style>
         /* CSS classes */
@@ -20,17 +22,10 @@
                 text-align: center;
                 border-radius: 10px;
             }
+
             text-align: center;
             align-items: center;
         }
-        #centro {
-            text-align: center;
-            padding-top: 100px;
-            padding-right: 200px;
-            padding-bottom: 200px;
-            padding-left: 200px;
-        }
-
     </style>
 </head>
 
@@ -40,15 +35,16 @@
         <button id="butao" onclick="alert('Bem vindo')">Nao clique é virus</button>
         <div id="centro">
             <form action="/menu.html">
-                <label for="username">Email:</label><br>
+                <label id="text" for="username">Email:</label><br>
                 <input type="email" id="fname" name="fname" value="name@email.com"><br>
                 <label for="password">Password:</label><br>
                 <input type="password" id="lname" name="lname" value="******"><br><br>
-                <input id="butao" type="button" onclick="alert('Bem vindo')" value="login">
-                <input id="butao" type="submit" value="reset">
-
             </form>
-        </div>
+            <button id="butao" onclick="LimparLogin()">ENTRAR</button>
+            <button id="butao" onclick="window.open('menu.html')">MENU</button>
+        
+            <button id="butao" onclick="Acess()">Acessibilidade</button>
+            </div>
 </body>
 
 </html>
