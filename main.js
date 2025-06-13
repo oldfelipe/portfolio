@@ -8,5 +8,5 @@ function LimparLogin(){
 }
 
 function Acess(){
-    document.getElementById("text").style.fontSize = "20px";
+    document.getElementsByClassName("form")[0].style.fontSize = "20px";
 }
